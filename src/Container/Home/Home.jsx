@@ -25,7 +25,7 @@ const Home = () => {
         <Sidebar />
       </div>
       <div className="body">
-        <Header />
+        <Header text={"Logout"} />
         <div>
           <div className="rectangle-card">
             <div className="rec">
@@ -209,7 +209,7 @@ const Home = () => {
                     <div className="all-flw">
                       <div className="number1">{valname.id}.</div>
                       <div className="img-abc">
-                        <img src={abc} alt="" className="imgabc" />
+                        <img src={valname.img} alt="" className="imgabc" />
                       </div>
                       <div className="name-mail">
                         <div className="michael">{valname.namee}</div>
